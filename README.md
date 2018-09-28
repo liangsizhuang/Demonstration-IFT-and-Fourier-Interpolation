@@ -8,3 +8,11 @@ When we have x[n], we can construct its sinc interpolation. Suppose the sinc int
 In this demonstration, we show IDFT and IFS on the same signal with different numbers of harmonics. One will observe the filtering effect. IDFT and IFS have the same reconstructed value on sampling points. However, IFS also gives results on non-sampling points. When all harmonics are used, IFS can achieve interpolation effects. This interpolation is called the Fourier interpolation. One can see that the Fourier interpolation is equal to the sinc interpolation.
 
 Demo_InverseFourierTransform.m shows IDFT and IFS, whereas Demo_FourierInterpolation.m compares the Fourier interpolation and the Sinc interpolation.
+
+![alt text](https://github.com/liangsizhuang/Demonstration-IFT-and-Fourier-Interpolation/blob/master/figure1.png)
+
+![alt text](https://github.com/liangsizhuang/Demonstration-IFT-and-Fourier-Interpolation/blob/master/figure2.png)
+
+![alt text](https://github.com/liangsizhuang/Demonstration-IFT-and-Fourier-Interpolation/blob/master/figure3.png)
+
+![alt text](https://github.com/liangsizhuang/Demonstration-IFT-and-Fourier-Interpolation/blob/master/figure4.png)
